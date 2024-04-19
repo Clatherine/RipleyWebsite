@@ -6,20 +6,23 @@ body{
     color: aliceblue; 
     padding: 2rem 10rem;
 }
-#Andrew {border: 10px solid black;
+#Andrew {border: 10px solid aliceblue;
     height: auto; width: 500px;}
 #TomDickie {border-radius: 50%;
     height: 200px; width: 300px; 
+    border: 10px solid pink;
 }
 .image{ text-align: center;}
 h1, h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-h2{font-size: 40px;}
+h2{font-size: 40px;
+}
 
-h1 { text-align: center;
-font-size: 70px;}
+h1 { text-align:center;
+font-size: 70px;
+color: pink;}
 a {font-size: 20px;
 color: aqua;}
 ul >li {
@@ -39,19 +42,23 @@ padding:0px;
 margin:0px}
 
 #introText{margin-left: 50px;
-margin-bottom: 50px;}
+margin-bottom: 50px;
+color: chartreuse}
 
 .prosandconsgrid{
     display: grid;
   grid-template-columns: auto auto;
  /*  background-color: #2196F3; */
-  padding: 10px;
+  padding: 0px;
   /* row-gap: 50px; */
+  margin:0px;
 }
 #relationshipsGrid{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    column-gap: 10px;
+    column-gap: 20px;
+    row-gap: 10px;
+
 }
 .relationshipitem{
     text-align: center;
@@ -88,5 +95,15 @@ margin-bottom: 50px;}
 }
 
 .characterImage{
-    height: 150px; width: auto;
+    height: 150px; width: 150px;
+    object-fit: cover;
+    border: dotted 7px chartreuse;
+text-align: center;
 }
+
+footer{
+    margin-top: 50px;
+}
+
+h4{text-align: center;}
+
