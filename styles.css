@@ -1,0 +1,92 @@
+*{background-color: midnightblue;
+box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+}
+body{
+    color: aliceblue; 
+    padding: 2rem 10rem;
+}
+#Andrew {border: 10px solid black;
+    height: auto; width: 500px;}
+#TomDickie {border-radius: 50%;
+    height: 200px; width: 300px; 
+}
+.image{ text-align: center;}
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h2{font-size: 40px;}
+
+h1 { text-align: center;
+font-size: 70px;}
+a {font-size: 20px;
+color: aqua;}
+ul >li {
+    color: pink;
+ /*  text-decoration: underline; */
+    list-style-type: none;
+    padding-left: 50px
+}
+ ol, #summaryP{
+    color:chartreuse;
+    text-decoration: none;
+}
+
+#summaryP {font-size: 50px;
+text-align: center;
+padding:0px;
+margin:0px}
+
+#introText{margin-left: 50px;
+margin-bottom: 50px;}
+
+.prosandconsgrid{
+    display: grid;
+  grid-template-columns: auto auto;
+ /*  background-color: #2196F3; */
+  padding: 10px;
+  /* row-gap: 50px; */
+}
+#relationshipsGrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+}
+.relationshipitem{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    color: pink;
+}
+
+#grid-item3, #grid-item4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#grid-item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+}
+#grid-item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+   
+}
+
+.proandcontitle .attributeList {
+    text-align: center;
+}
+.ProsandCons{
+    padding-bottom: 50px
+}
+
+#Summary {
+    text-align: center;
+    font-size: 40px;
+}
+
+.characterImage{
+    height: 150px; width: auto;
+}
